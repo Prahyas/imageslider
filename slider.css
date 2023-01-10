@@ -32,10 +32,30 @@ body {
   width: 450px;
   border: 2px solid #ecebea;
   border-radius: 5px;
+  overflow: hidden;
+  /* z-index: -10; */
+}
+
+.slider {
+  display: flex;
+  gap: 5px;
+  transition: all 0.5s ease;
 }
 
 .container .top .frame img {
   height: 100%;
   width: 100%;
   object-fit: contain;
+}
+
+.bottom {
+  display: flex;
+  gap: 6px;
+}
+
+.button {
+  height: 10px;
+  width: 10px;
+  border: 1px solid white;
+  border-radius: 50%;
 }
